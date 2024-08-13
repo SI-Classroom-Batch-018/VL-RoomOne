@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/guestFragment">
+
+    <fragment
+        android:id="@+id/guestFragment"
+        android:name="de.syntax_institut.vl_beispiel_room.ui.GuestFragment"
+        android:label="fragment_guest"
+        tools:layout="@layout/fragment_guest" />
+</navigation>
