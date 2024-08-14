@@ -10,4 +10,12 @@ class Repository(private val databse: GuestDatabase) {
      suspend fun addGuest(guest: Guest) {
         databse.dao.insertGuest(guest)
     }
+
+    suspend fun deleteGuest(guest: Guest) {
+        databse.dao.deleteGuest(guest)
+    }
+
+    suspend fun updateUser(value: Guest) {
+        databse.dao.updateUser(value)
+    }
 }

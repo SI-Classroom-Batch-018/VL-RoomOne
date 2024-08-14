@@ -31,7 +31,7 @@ class GuestFragment : Fragment() {
         savedInstanceState: Bundle?
     ) {
         viewModel.guestList.observe(viewLifecycleOwner) {
-            binding.rvGuestList.adapter = GuestAdapter(it)
+            binding.rvGuestList.adapter = GuestAdapter(it, viewModel)
         }
 
         binding.btAddGuest.setOnClickListener {

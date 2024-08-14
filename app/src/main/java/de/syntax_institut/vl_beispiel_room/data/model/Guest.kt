@@ -7,6 +7,6 @@ import androidx.room.PrimaryKey
 data class Guest(
     @PrimaryKey(autoGenerate = true)
     val id: Long?,
-    val name: String,
-    val food: String
+    var name: String,
+    var food: String
 )

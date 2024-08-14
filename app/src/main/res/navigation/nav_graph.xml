@@ -10,4 +10,9 @@
         android:name="de.syntax_institut.vl_beispiel_room.ui.GuestFragment"
         android:label="fragment_guest"
         tools:layout="@layout/fragment_guest" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="de.syntax_institut.vl_beispiel_room.ui.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
 </navigation>
